@@ -38,8 +38,6 @@ const changeRange = () => {
         const total = totalForYear / 12
 
         valuePerMonth.innerText = `${total.toString()}$`
-
-        console.log(total)
     }
 }
 
