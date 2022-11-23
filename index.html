@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <section id="container">
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required. </p>
+    </header>
+
+    <div id="cardContainer">
+      <div id="values">
+        <div id="infoValues">
+          <p><span id="views"></span>Pageviews</p>
+
+          <p id="totalValue"><span id="value-per-month"></span>/month</p>
+
+          <input type="range" value="1" min="0" max="100" step="1" id="inputRange">
+        </div>
+
+        <div id="discount">
+          <p>Monthly Billing</p>
+          
+          <input type="checkbox" id="buttonDiscount">
+
+          <p>Yearly Billing <span>25% discount</span></p>
+        </div>
+      </div>
+  
+      <div id="infosContainer">
+        <div id="infos">
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/thiagopdias" target="_blank">Thiago Dias</a>.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
